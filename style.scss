@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 15px;
+}
+
+:root {
+
+    // Primary
+
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    //Neutral
+
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+
+}
+
+body {
+    background-color: var(--VeryLightGray);
+}
+
+.text-veryDarkBlue {
+    color: var(--VeryDarkBlue);
+}
+
+.text-GrayishBlue {
+    color: var(--GrayishBlue);
+}
+
+.text-VeryLightGray {
+    color: var(--VeryLightGray);
+}
+
+.text-Red {
+    color: var(--Red);
+}
+
+.text-Cyan {
+    color: var(--Cyan);
+}
+
+.text-Orange {
+    color: var(--Orange);
+}
+
+.text-Blue {
+    color: var(--Blue);
+}
+
+.font-200 {
+    font-weight: 200;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+// card section
+.card-item {
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-top: 4px solid;
+}
+
+.border-Red {
+    border-color: var(--Red);
+}
+
+.border-Orange {
+    border-color: var(--Orange);
+}
+
+.border-Cyan {
+    border-color: var(--Cyan);
+}
+
+.border-Blue {
+    border-color: var(--Blue);
+}
+
+// .flex-wrap {
+//     flex-wrap: wrap !important;
+// }
